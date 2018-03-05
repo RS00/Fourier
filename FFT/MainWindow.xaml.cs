@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FFT
+namespace COSI1
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
@@ -23,6 +23,12 @@ namespace FFT
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            GraphBuilder builer = new GraphBuilder();
+            builer.Show();
         }
     }
 }

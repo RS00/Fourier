@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FFT.Properties
+namespace COSI1.Properties
 {
 
 

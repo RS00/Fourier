@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FFT
+namespace COSI1
 {
     class FFT
     {
         private const int N = 8;
+
     }
 }

@@ -1,0 +1,25 @@
+﻿<Window x:Class="COSI1.GraphBuilder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wfi="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+        xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        xmlns:dvc="clr-namespace:System.Windows.Forms.DataVisualization.Charting;assembly=System.Windows.Forms.DataVisualization"
+        xmlns:local="clr-namespace:COSI1"
+        mc:Ignorable="d"
+        Title="GraphBuilder" Height="600" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="93*"/>
+        </Grid.RowDefinitions>
+        <Label HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="18">
+            y = cos(3x) + sin(2x)
+        </Label>
+
+        <WindowsFormsHost Grid.Row="1">
+            <dvc:Chart x:Name="Chart" />
+        </WindowsFormsHost>
+    </Grid>
+</Window>

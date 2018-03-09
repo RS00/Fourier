@@ -12,12 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Numerics;
 
-namespace COSI1
+namespace Fourier
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -27,8 +25,20 @@ namespace COSI1
 
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
-            GraphBuilder builer = new GraphBuilder();
+            Graph builer = new Graph();
             builer.Show();
+        }
+
+        private void Button2_Click(object sender, RoutedEventArgs e)
+        {
+            AmplitudeFrequencyGraph graph = new AmplitudeFrequencyGraph();
+            graph.Show();
+        }
+
+        private void Button3_Click(object sender, RoutedEventArgs e)
+        {
+            InvertGraph inv = new InvertGraph();
+            inv.Show();
         }
     }
 }

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COSI1.Properties
+namespace Fourier.Properties
 {
 
 

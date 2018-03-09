@@ -1,9 +1,9 @@
-﻿<Window x:Class="COSI1.MainWindow"
+﻿<Window x:Class="Fourier.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:COSI1"
+        xmlns:local="clr-namespace:Fourier"
         mc:Ignorable="d"
         Title="COSI1" Height="350" Width="525">
     <Grid>
@@ -13,8 +13,8 @@
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <Button Grid.Row="0" Click="Button1_Click">График</Button>
-        <Button Grid.Row="1">Амплитудный и фазовый</Button>
-        <Button Grid.Row="2">Обратное преобразование</Button>
+        <Button Grid.Row="0" Click="Button1_Click">Исходный график</Button>
+        <Button Grid.Row="1" Click="Button2_Click">Амплитудный и фазовый закон спектра</Button>
+        <Button Grid.Row="2" Click="Button3_Click">Обратное преобразование</Button>
     </Grid>
 </Window>

@@ -1,7 +1,7 @@
-﻿<Application x:Class="COSI1.App"
+﻿<Application x:Class="Fourier.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:COSI1"
+             xmlns:local="clr-namespace:Fourier"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
